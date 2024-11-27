@@ -34,6 +34,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: ./Dockerfile  
+          file: .github/workflows/Dockerfile 
           push: true
-          tags: halaarar/dsci522-dockerfile-practice:latest:latest 
+          tags: halaarar/dsci522-dockerfile-practice:latest
